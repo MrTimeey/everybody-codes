@@ -19,7 +19,7 @@ The [Terms of Use](https://everybody.codes/legal) don't allow to publish the tes
 
 > Also, please avoid including such content in your code repository.
 
-Therefore my own input data will not be commited.
+Therefore, my own input data will not be commited.
 
 ## Development Tools
 
