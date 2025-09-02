@@ -1,0 +1,20 @@
+{
+  "name": "2024_quest_1",
+  "version": "1.0.0",
+  "description": "[2024] The Kingdom of Algorithmia - Quest 1",
+  "main": "main.ts",
+  "scripts": {
+    "dev": "nodemon main.ts",
+    "serve": "ts-node main.ts",
+    "test": "vitest"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2",
+    "vitest": "^3.2.4"
+  }
+}
