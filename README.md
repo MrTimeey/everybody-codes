@@ -20,3 +20,16 @@ The [Terms of Use](https://everybody.codes/legal) don't allow to publish the tes
 > Also, please avoid including such content in your code repository.
 
 Therefore my own input data will not be commited.
+
+## Development Tools
+
+This repository contains a small CLI script to scaffold new quests.  
+It copies a template (e.g. `project-templates/ts`) into the corresponding year folder,  
+renames files and placeholders, and installs dependencies automatically.
+
+### Usage
+
+From the repository root, run:
+
+```bash
+npm run create-quest

@@ -1,7 +1,7 @@
 {
-  "name": "xxDescriptionxx",
+  "name": "xx-artefact-xx",
   "version": "1.0.0",
-  "description": "xxDescriptionxx",
+  "description": "xx-description-xx",
   "main": "main.ts",
   "scripts": {
     "dev": "nodemon main.ts",

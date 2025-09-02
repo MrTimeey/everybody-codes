@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "bin": {
+    "create-quest": "scripts/create-quest/index.js"
+  },
+  "scripts": {
+    "create-quest": "node scripts/create-quest/index.js"
+  },
+  "devDependencies": {
+    "inquirer": "^9.3.7",
+    "yargs": "^17.7.2"
+  }
+}
