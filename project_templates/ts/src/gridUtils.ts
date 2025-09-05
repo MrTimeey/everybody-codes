@@ -6,6 +6,10 @@ export const printGrid = (grid: string[][]): void => {
     }
 }
 
+export function cloneGrid<T>(grid: T[][]): T[][] {
+    return grid.map(row => row.slice());
+}
+
 export const straight_directions: Record<string, Coord> = {
     right: {x: 1, y: 0},
     left: {x: -1, y: 0},

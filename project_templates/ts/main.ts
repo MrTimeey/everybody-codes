@@ -5,7 +5,7 @@ import pkg from "./package.json";
 const readFileLines = (filename: string): string[] =>
     readFileSync(filename).toString('utf-8').trimEnd().split('\n').map((line: string) => line.trimEnd())
 
-const logPart = (label: string, func: (value: string[]) => number, fileName: string, provenResult?: number) => {
+const logPart = <T>(label: string, func: (value: string[]) => T, fileName: string, provenResult?: T) => {
     console.log(`\n########### ${label} ###########`)
     const start = Date.now()
     const inputLines = readFileLines(`./src/data/${fileName}`);
