@@ -7,10 +7,11 @@ const readFileLines = (filename: string): string[] =>
 
 const logPart = (label: string, func: (value: string[]) => number, fileName: string, provenResult?: number) => {
     console.log(`\n########### ${label} ###########`)
-    const start = Date.now()
     const inputLines = readFileLines(`./src/data/${fileName}`);
+    console.time('Duration');
     const result = func(inputLines);
-    console.log(`${label}: ${result} - Duration: ${Date.now() - start}`)
+    console.timeEnd('Duration');
+    console.log(`Result: ${result}`)
     const status = provenResult ? (result !== provenResult ? 'Broken' : 'Solved') : 'Open'
     console.log('Status:', status)
 }
