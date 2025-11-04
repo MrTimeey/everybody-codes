@@ -17,6 +17,6 @@ const logPart = <T>(label: string, func: (value: string[]) => T, fileName: strin
 }
 
 console.log(pkg.description)
-logPart('Part 1', part1, 'input_part1.txt')
-logPart('Part 2', part2, 'input_part2.txt')
-logPart('Part 3', part3, 'input_part3.txt')
+logPart('Part 1', part1, 'input_part1.txt', 'Tyrdax')
+logPart('Part 2', part2, 'input_part2.txt', 'Xaralisis')
+logPart('Part 3', part3, 'input_part3.txt', 'Yndcalyx')

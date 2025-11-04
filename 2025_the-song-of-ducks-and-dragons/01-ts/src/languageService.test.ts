@@ -12,14 +12,18 @@ test('Test input part 1', () => {
 
 test('Test input part 2', () => {
   const input = [
+    'Vyrdax,Drakzyph,Fyrryn,Elarzris',
     '',
+    'R3,L2,R3,L1',
   ]
-  expect(part2(input)).toBe(0)
+  expect(part2(input)).toBe('Elarzris')
 })
 
 test('Test input part 3', () => {
   const input = [
+    'Vyrdax,Drakzyph,Fyrryn,Elarzris',
     '',
+    'R3,L2,R3,L3',
   ]
-  expect(part3(input)).toBe(0)
+  expect(part3(input)).toBe('Drakzyph')
 })
